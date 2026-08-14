@@ -1,0 +1,29 @@
+[
+    {
+        "caption": "Marp: Open Preview",
+        "command": "marp_preview"
+    },
+    {
+        "caption": "Marp: Export...",
+        "command": "marp_export"
+    },
+    {
+        "caption": "Marp: Stop Preview",
+        "command": "marp_preview_stop"
+    },
+    {
+        "caption": "Preferences: MarpPreview Settings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/MarpPreview/MarpPreview.sublime-settings",
+            "default": "// MarpPreview Settings\n// See the base file for available options.\n{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "MarpPreview: Key Bindings",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Default ($platform).sublime-keymap"
+        }
+    }
+]

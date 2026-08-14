@@ -1,0 +1,11 @@
+{
+    // Marp renderer to use.
+    // null (default) : auto-download the Marp CLI binary to ~/.marp-binary/.
+    //                  No Node.js or npm required. Internet needed on first run only.
+    // "marp"         : use a globally installed marp command.
+    // ["npx", "@marp-team/marp-cli"] : use marp via npx (requires Node.js).
+    "marp_command": null,
+
+    // Port for the local preview HTTP server.
+    "server_port": 8742
+}

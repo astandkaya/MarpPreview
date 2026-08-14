@@ -1,0 +1,37 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "MarpPreview",
+                        "children": [
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/MarpPreview/MarpPreview.sublime-settings",
+                                    "default": "// MarpPreview Settings\n// See the base file for available options.\n{\n\t$0\n}\n"
+                                },
+                                "caption": "Settings"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default ($platform).sublime-keymap"
+                                },
+                                "caption": "Key Bindings"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

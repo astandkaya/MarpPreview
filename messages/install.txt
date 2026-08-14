@@ -1,0 +1,12 @@
+MarpPreview
+===========
+
+Thanks for installing MarpPreview!
+
+Open any .md file and run:
+  Marp: Open Preview  (via Command Palette)
+
+On first use, the Marp CLI binary and Mermaid.js are automatically downloaded
+to ~/.marp-binary/ — no Node.js or npm required.
+
+See README.md or https://github.com/astandkaya/MarpPreview for full documentation.
